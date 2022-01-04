@@ -1,6 +1,24 @@
 # Minimum-Cost-Flow
 Minimum Cost Flow: In the case study from Guéret et al, (1999), the Minimum Cost Flow Problem was solved to minimise the company’s costs when transferring the required number of cars to different collection points along all arcs of the network, subject to satisfy the demand of each point. The decisions to be made are whether or not each source i will be able to supply destination j. The input parameters to be considered are the following: unit transportation charge, fixed price transportation, and demand at destination j.
 
+
+"A small car rental company has a fleet of 94 vehicles distributed among its 10 agencies. The location of
+every agency is given by its geographical coordinates X and Y in a grid based on kilometers. We assume
+that the road distance between agencies is approximately 1.3 times the Euclidean distance (as the crow
+flies). The following table indicates the coordinates of all agencies, the number of cars required the next
+morning, and the stock of cars in the evening preceding this day.
+Table 10.1: Description of the vehical rental agencies
+Agency         1    2     3    4    5    6    7    8    9    10
+X coordinate   0    20   18   30   35   33    5    5   11     2
+Y coordinate   0    20   10   12    0   25   27   10    0    15
+Required cars  10    6    8   11    9    7   15    7    9    12
+Cars present   8    13    4    8   12    2   14   11   15     7
+Supposing the cost for transporting a car is BC 0.50 per km, determine the movements of cars that allow the
+company to re-establish the required numbers of cars at all agencies, minimizing the total cost incurred
+for transport."
+
+
+
 Analysis of test instance and optimisation results 
 
 This problem was not only solved, but it was also enlarged by adding new sets of constraints.
